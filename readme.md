@@ -19,6 +19,9 @@ Mirror your Windows, macOS, or Linux screen to iOS, Android, or Apple TV devices
    - Visit `/Viewer.html`
    - Watch the mirrored screen in real-time
 
+
+   ## Buy me a coffee
+   **Buy me a coffee by sending TON coins in CAD Canadian Dollars to this address : UQDWVHX_cTQAiA6NBJZfrc6hiNQGjeFpNb4gNCj9VPBUogyp**
 ## Setup Guide 🚀
 ```bash
 # Clone repository
@@ -35,6 +38,9 @@ Node.js v16+
 Modern browser (Chrome, Firefox, Safari)
 
 Devices on same network
+
 MIT License - View License
 
 Copyright (c) 2025 [Rayan Esmaeelzadeh]
+
+---
