@@ -25,7 +25,7 @@ Mirror your Windows, macOS, or Linux screen to iOS, Android, or Apple TV devices
 ## Setup Guide 🚀
 ```bash
 # Clone repository
-git clone https://github.com/your-username/desktop-screen-mirror.git
+git clone [https://github.com/your-username/desktop-screen-mirror.git](https://github.com/pepsiman2024-code/desktop_screen_mirror_Real.git)
 
 # Install dependencies
 npm install
