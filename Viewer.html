@@ -14,30 +14,35 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="container">
-    <ul>
-        <li>
-            <a href="./index.html">
-                <img src="./assets/favicons/favicon.jpg" alt="Logo" width="60" class="animate__animated animate__tada">
-            </a>
-        </li>
-        <li class="DarkLightModeChange">
-            <header>
-                <h1>Destop Screen Mirror! Viewer page</h1>
-                <button id="button" aria-label="Toggle dark mode">
-                    <i class="fa-solid fa-moon-stars"></i>
-                </button>
-            </header>
-        </li>
-        <li class="Links">
-            <br>
-            <a href="./Viewer.html" id="NormalLnk" class="animate__animated animate__tada">Click to Go to the viewer Page</a>
-        </li>
-    </ul>
-</nav>
+    <nav class="container">
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <img src="./assets/favicons/favicon.jpg" alt="Logo" width="60" class="animate__animated animate__tada">
+                </a>
+            </li>
+            <li class="DarkLightModeChange">
+                <header>
+                    <h1>Destop Screen Mirror! Viewer page</h1>
+                    <button id="button" aria-label="Toggle dark mode">
+                        <i class="fa-solid fa-moon-stars"></i>
+                    </button>
+                </header>
+            </li>
+            <li class="Links">
+                <br>
+                <a href="./Viewer.html" id="NormalLnk" class="animate__animated animate__tada">Click to Go to the viewer Page</a>
+            </li>
+        </ul>
+    </nav>
 
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/icons/fontawesome/js/all.js"></script>
-<script src="./assets/js/script.js"></script>
+    <main class="container">
+        <div class="status" id="status">Waiting for broadcaster...</div>
+        <video id="remoteVideo" autoplay playsinline></video>
+    </main>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/viewer.js"></script>
 </body>
 </html>

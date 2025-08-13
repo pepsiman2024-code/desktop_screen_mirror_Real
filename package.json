@@ -2,8 +2,9 @@
   "name": "destop_screen_mirror",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.7",
+    "express": "^4.18.2",
     "ws": "^8.18.3"
   }
 }
