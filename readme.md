@@ -21,7 +21,7 @@ Mirror your Windows, macOS, or Linux screen to iOS, Android, or Apple TV devices
 
 
    ## Buy me a coffee
-   **Buy me a coffee by sending TON coins in CAD Canadian Dollars to this address : UQDWVHX_cTQAiA6NBJZfrc6hiNQGjeFpNb4gNCj9VPBUogyp**
+   **Buy me a coffee by sending TON coins in US Dollars to this address : UQDWVHX_cTQAiA6NBJZfrc6hiNQGjeFpNb4gNCj9VPBUogyp**
 ## Setup Guide 🚀
 ```bash
 # Clone repository
