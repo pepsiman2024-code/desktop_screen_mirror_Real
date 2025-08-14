@@ -1,46 +1,43 @@
-# Desktop Screen Mirror 🌐🖥️📱
+# Desktop Screen Mirror: Cross-Platform Screen Sharing via WebRTC 🔄🖥️📱
 
-Mirror your Windows, macOS, or Linux screen to iOS, Android, or Apple TV devices using WebRTC technology.
+[![WebRTC](https://img.shields.io/badge/WebRTC-Enabled-009688.svg?logo=webrtc&logoColor=white)](https://webrtc.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/desktop-screen-mirror?style=social)](https://github.com/yourusername/desktop-screen-mirror)
 
-![Demo](assets/favicons/favicon.jpg)
+**Mirror any desktop screen (Windows, macOS, Linux) to mobile devices (iOS, Android) and Apple TV in real-time using WebRTC technology.**
 
-## Features ✨
-- Real-time screen mirroring via WebRTC
-- Cross-platform support (Windows/macOS/Linux → iOS/Android/Apple TV)
-- Dark/Light mode toggle
-- Simple setup with no installations needed
-- Responsive design for all devices
+👉 **Try it now**:  | [GitHub Repository](https://github.com/pepsiman2024-code/desktop-screen-mirror_Real)
+
+![Desktop to Mobile Screen Mirroring Demo](assets/demo.gif)
+
+## Table of Contents
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Installation Guide](#installation-guide)
+- [Browser Support](#browser-support)
+- [Use Cases](#use-cases)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+- [About the Developer](#about-the-developer)
+
+## Key Features ✨
+- **Real-time screen mirroring** with low latency
+- **Cross-platform support** (Windows/macOS/Linux → iOS/Android/Apple TV)
+- **No installation required** for viewers
+- **Dark/Light mode** toggle
+- **Secure P2P connection** via WebRTC
+- **Responsive design** for all devices
 
 ## How It Works ⚙️
-1. **Broadcaster** (PC/Mac/Linux):
+1. **Broadcaster** (Desktop):
    - Visit `/broadcast.html`
    - Click "Share Screen" button
 2. **Viewer** (Mobile/Tablet/TV):
    - Visit `/Viewer.html`
    - Watch the mirrored screen in real-time
 
-
-   ## Buy me a coffee
-   **Buy me a coffee by sending TON coins in US Dollars to this address : UQDWVHX_cTQAiA6NBJZfrc6hiNQGjeFpNb4gNCj9VPBUogyp**
-## Setup Guide 🚀
-```bash
-# Clone repository
-git clone [https://github.com/your-username/desktop-screen-mirror.git](https://github.com/pepsiman2024-code/desktop_screen_mirror_Real.git)
-
-# Install dependencies
-npm install
-
-# Start server
-npm start
-## Requirements ✅
-Node.js v16+
-
-Modern browser (Chrome, Firefox, Safari)
-
-Devices on same network
-
-MIT License - View License
-
-Copyright (c) 2025 [Rayan Esmaeelzadeh]
-
----
+```mermaid
+graph LR
+A[Desktop Browser] -->|WebRTC Stream| B[Signaling Server]
+B -->|WebRTC Stream| C[Mobile Device]
