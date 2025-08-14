@@ -41,3 +41,48 @@
 graph LR
 A[Desktop Browser] -->|WebRTC Stream| B[Signaling Server]
 B -->|WebRTC Stream| C[Mobile Device]
+```
+## Installation Guide 🚀
+### Clone repository
+**git clone https://github.com/yourusername/desktop-screen-mirror.git**
+
+# Install dependencies
+npm install
+
+# Start server
+npm start
+
+### Access at http://localhost:8080
+
+## Browser Support 🌐
+Browser	Desktop	Mobile
+Chrome	   ✅	     ✅
+Firefox	   ✅	     ✅
+Safari	   ✅	     ✅
+Edge	      ✅	     ✅
+Samsung Internet	❌	✅
+
+## Use Cases 💡
+
+Presentations: Share your screen during meetings
+
+Remote Assistance: Help family members with tech issues
+
+Education: Teachers demonstrate concepts to students
+
+Entertainment: Mirror games to larger screens
+
+Accessibility: View desktop content on mobile devices
+
+License 📄
+This project is licensed under the MIT License - see the [License File]LICENSE.md file for details.
+
+## About The Developer
+I'm a developer from Iran passionate about creating open-source tools. This project is part of my journey to contribute to the global tech community and eventually immigrate to Canada.
+
+"This project represents the power of WebRTC to connect people across devices and borders."
+Notice: Don't block my account Because of this
+
+🌐 Connect with me:
+[GitHub]https://github.com/pepsiman2024-code/desktop_screen_mirror_Real/|
+[Email]mailto:rayanesmaeelzadeh60@gmail.com
