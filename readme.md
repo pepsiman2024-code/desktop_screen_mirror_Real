@@ -8,7 +8,7 @@
 
 👉 **Try it now**:  | [GitHub Repository](https://github.com/pepsiman2024-code/desktop-screen-mirror_Real)
 
-![Desktop to Mobile Screen Mirroring Demo](assets/demo.gif)
+![Desktop to Mobile Screen Mirroring Demo](ezgif-334bb1ccd1f59c.gif)
 
 ## Table of Contents
 - [Key Features](#key-features)
