@@ -2,7 +2,7 @@
 
 [![WebRTC](https://img.shields.io/badge/WebRTC-Enabled-009688.svg?logo=webrtc&logoColor=white)](https://webrtc.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/desktop-screen-mirror?style=social)](https://github.com/pepsiman2024-code/DesktopScreenMirrorReal/tree/Real)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/desktop-screen-mirror?style=social)](https://github.com/pepsiman2024-code/DesktopScreenMirrorReal)
 
 **Mirror any desktop screen (Windows, macOS, Linux) to mobile devices (iOS, Android) and Apple TV in real-time using WebRTC technology.**
 
