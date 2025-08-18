@@ -44,7 +44,7 @@ B -->|WebRTC Stream| C[Mobile Device]
 ```
 ## Installation Guide 🚀
 ### Clone repository
-**git clone https://github.com/yourusername/desktop-screen-mirror.git**
+**git clone [https://github.com/yourusername/desktop-screen-mirror.git](https://github.com/pepsiman2024-code/DesktopScreenMirrorReal/DesktopScreenMirrorReal.git)**
 
 # Install dependencies
 npm install
