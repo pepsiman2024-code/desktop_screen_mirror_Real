@@ -26,22 +26,20 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 const shareButton = document.getElementById('mainBody');
 
+// Replace the shareButton event listener with:
 shareButton.addEventListener('click', async () => {
-    if (navigator.mediaDevices.getDisplayMedia()) {
+    if (navigator.share) {
         try {
-            await navigator.mediaDevices.getDisplayMedia()({
-                title: 'My Awesome Website',
-                text: 'Check out this amazing content!',
-                url: window.location.href, // Shares the current page URL
+            await navigator.share({
+                title: 'Desktop Screen Mirror',
+                text: 'Check out this screen mirroring app!',
+                url: window.location.href,
             });
-            console.log('Content shared successfully');
         } catch (error) {
-            console.error('Error sharing content:', error);
+            console.error('Error sharing:', error);
         }
     } else {
-        // Fallback for browsers that do not support the Web Share API
-        alert('Web Share API is not supported in this browser.');
-        // You could also implement a custom share dialog here
+        alert('Web Share API not supported in your browser');
     }
 });
 console.log("Now that you are in here See my github repo at: https://github.com/pepsiman2024-code/DesktopScreenMirrorReal/tree/trunk")

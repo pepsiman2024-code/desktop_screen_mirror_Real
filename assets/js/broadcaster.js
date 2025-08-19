@@ -1,3 +1,4 @@
+let isSharing = false;
 let peerConnection;
 const socket = new WebSocket(`ws://${window.location.host}`);
 
@@ -69,6 +70,12 @@ async function startBroadcast() {
         alert(`Screen sharing error: ${error.message}`);
     }
 }
+function stopBroadcast() {
+    resetConnection();
+    isSharing = false;
+    document.getElementById('status').textContent = 'Not sharing';
+    document.getElementById('mainBody').textContent = 'Click to Share your PC, macOS or Linux Screen';
+};
 
 function resetConnection() {
     if (peerConnection) {
@@ -83,8 +90,10 @@ function resetConnection() {
 }
 
 document.getElementById('mainBody').addEventListener('click', () => {
-    if (!peerConnection) {
+    if (!isSharing) {
         startBroadcast();
+    } else {
+        stopBroadcast();
     }
 });
 
