@@ -25,7 +25,7 @@
 - [About the Developer](#about-the-developer)
 - 
 # Donation
-My Public Address to Receive 0.001 BTC: bc1qj99mrehat494aqtnqy4s9gst4rwpyce7w59pkm
+If you find this project useful please donate 0.001 BTC: bc1qj99mrehat494aqtnqy4s9gst4rwpyce7w59pkm
 
 Pay me via Trust Wallet: https://link.trustwallet.com/send?address=bc1qj99mrehat494aqtnqy4s9gst4rwpyce7w59pkm&amount=0.001&asset=c0&value=100000
 
