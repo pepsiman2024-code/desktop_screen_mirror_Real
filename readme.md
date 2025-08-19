@@ -6,11 +6,14 @@
 
 **Mirror any desktop screen (Windows, macOS, Linux) to mobile devices (iOS, Android) and Apple TV in real-time using WebRTC technology.**
 
+
 👉 **Try it now**:  | [GitHub Repository](https://github.com/pepsiman2024-code/desktop-screen-mirror_Real)
 
 ![Desktop to Mobile Screen Mirroring Demo](ezgif-334bb1ccd1f59c.gif)
 
 ## Table of Contents
+
+- [Donation](#Donation)
 - [Key Features](#key-features)
 - [How It Works](#how-it-works)
 - [Installation Guide](#installation-guide)
@@ -20,6 +23,13 @@
 - [License](#license)
 - [Support](#support)
 - [About the Developer](#about-the-developer)
+- 
+# Donation
+If you find this project useful please donate 0.001 BTC: bc1qj99mrehat494aqtnqy4s9gst4rwpyce7w59pkm
+
+Pay me via Trust Wallet: https://link.trustwallet.com/send?address=bc1qj99mrehat494aqtnqy4s9gst4rwpyce7w59pkm&amount=0.001&asset=c0&value=100000
+
+[QR code](27884.jpg)
 
 ## Key Features ✨
 - **Real-time screen mirroring** with low latency
