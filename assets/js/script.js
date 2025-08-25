@@ -46,12 +46,7 @@ console.log("Now that you are in here See my github repo at: https://github.com/
 const GithubRepo = "Now that you are in here See my github repo at: https://github.com/pepsiman2024-code/DesktopScreenMirrorReal/tree/trunk"
 alert(GithubRepo)
 window.addEventListener('beforeunload', function (e) {
-    // You can add logic here to check for unsaved changes or other conditions
-    // For example, if (hasUnsavedChanges) { ... }
-    
-    // This line is essential to trigger the confirmation dialog
-    // In modern browsers, the message displayed cannot be customized by the script.
-    // The browser displays a generic message like "Changes you made may not be saved."
+
     e.preventDefault(); // Cancel the event
     e.returnValue = ''; // For older browsers, setting returnValue is necessary
 });
